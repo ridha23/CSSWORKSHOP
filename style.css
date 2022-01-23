@@ -1,0 +1,242 @@
+*{  
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    
+        background: rgb(0, 0, 0) url('canon.jpg');
+        background-repeat: no-repeat;
+        background-size: 90%;
+    margin-right: 250px; 
+    margin-left: 250px; 
+    color: white;
+   
+}
+
+.triangle-bottomleft { 
+    width: 0; 
+    height: 0; 
+    border-bottom: 250px solid yellow; 
+    border-right: 250px solid transparent; 
+    position: absolute;
+    margin-top: 190px; 
+    margin-left: -190px; 
+}
+.triangle-right {
+    position: absolute;
+    border-top: 200px solid transparent;
+    border-left: 250px solid #fff22d;
+    border-bottom: 200px solid transparent;
+    top: 300px;
+  }
+nav{
+    
+    display: flex;
+    height: 118px;
+    text-align: center;
+    position: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+a{
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+ 
+    text-decoration: none;
+
+}
+a:hover{
+    cursor: pointer;
+    color: yellow;
+
+}
+.a-exp {
+    color: #fff22d;
+  }
+img{
+    width: 90%;
+    margin-left: -190px;
+    padding-top: 30px;
+}
+.container{
+    display: inline-block; 
+    margin-top: 150px;
+
+}
+.section1{
+
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  
+}
+.section2{
+
+    background-color: yellow;;
+    display: inline-block;
+    padding : 20px;
+    margin-top: 280px;
+    color: black;
+    
+
+}
+.section3{
+
+    display: inline-block;
+
+    margin-top: 50px;   
+
+
+}
+.section4{
+
+    background-color: yellow;
+    display: inline-block;
+    padding : 20px;
+    margin-top: 50px;
+    color: black;
+    
+
+}
+.cont_box{
+    width: 100%;
+}
+.box{
+    display: inline-block;
+    width: 32%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: black;
+    border: 1px solid;
+}
+.box2{
+    display: inline-block;
+    width: 32%;
+    color: white;
+    text-align: center;
+    border: black;
+    border: 1px solid;
+}
+
+.photo_icon {
+    width: 75%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  .photowedd{
+    width: 83%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+  }
+
+.trigger{
+    width: 10%;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 650px;  
+}
+
+.lens2 {
+    width: 30%;
+    margin-top: 2050px;
+    margin-left: 550px;
+    position: absolute;
+  }
+
+.lenszoom {
+    width: 20%;
+    margin-top: 1250px;
+    margin-left:-290px;
+    position: absolute;
+    
+  }
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+}
+.imgfooter{
+    width: 50%;
+    margin-left: 220px;
+}
+
+.lignea {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .ligneb {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  .lignec {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .ligned {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+
+
+  .my-float {
+    margin-top: 22px;
+    position: fixed;  
+    bottom: 40px;
+    right: 40px;
+    
+  }
+  .fa-4x {
+    font-size: 2em;
+}
+.send_butt {
+    background-color: #131212;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 3px;
+    height: 34px;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .send_butt:hover {
+    background-color: #202020;
+    color: white;
+  }
+  .formbox {
+
+    background-color: yellow;
+    text-align: center;
+  }
+
+  .port_box{
+    text-align: center; 
+  }
